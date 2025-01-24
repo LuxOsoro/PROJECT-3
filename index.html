@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN KITCHEN</title>
+ </head>
+ <body>
+    <H1>Cooking With Lux!</H1>
+    <p>As a Michelin-starred chef, I dedicate myself to perfecting every detail of the dining experience. My kitchen is a place where passion meets precision, where I push the boundaries of flavor and technique with every dish. I’ve spent years learning, evolving, and refining my craft, always striving to elevate simple ingredients into extraordinary creations. Each plate tells a story—whether it’s a tribute to tradition or a bold innovation. My team and I work in unison, constantly challenging each other to be better. For me, being a chef is about more than cooking; it’s about creating unforgettable, immersive culinary experiences.</p>
+    <h2>ON TODAYS MENU WE HAVE</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYgCwHYf2nXE-Gf6s2KGiRyP5yuGXp36iWrA&s" alt="picture of beef wellington">
+    <p>Beef Wellington is a luxurious, show-stopping dish that’s known for its impressive presentation and rich flavors. At its core, it features a tender cut of beef—usually a center-cut fillet or tenderloin—perfectly seared to develop a savory crust. The beef is then coated in a layer of rich, earthy mushroom duxelles, which adds moisture and depth to the dish. Sometimes, a thin layer of prosciutto or pâté is added for extra flavor.
+
+        The entire package is wrapped in a buttery, golden puff pastry, which bakes to a crisp, flaky texture. When cut, the beef is perfectly rare to medium-rare, complemented by the savory mushrooms and crisp pastry. Beef Wellington is typically served with a flavorful sauce, like a red wine reduction or béarnaise, to elevate the dish even further. It’s a true indulgence and a centerpiece perfect for special occasions.</p>
+<H3>Ingridients</H3>
+<ul>
+    <li>Beef Tenderloin (Center Cut) – A high-quality, tender piece of beef, usually around 2 pounds.</li>
+    <li>Mushrooms – Typically cremini, shiitake, or button mushrooms, finely chopped for the duxelles.</li>
+    <li>Prosciutto – Thinly sliced, to wrap the beef and add flavor.</li>
+    <li>Pâté (Optional) – Often foie gras or a mushroom pâté, spread on the beef before wrapping.</li>
+    <li>Puff Pastry – Enough to fully enclose the beef and other layers.</li>
+    <li>Eggs – For an egg wash to give the pastry a golden, shiny finish.</li>
+    <li>Butter – To sauté the mushrooms and help sear the beef.</li>
+    <li>Garlic – For flavoring the mushrooms.</li>
+    <li>Shallots – To add depth to the mushroom duxelles.</li>
+    <li>Herbs – Fresh thyme and rosemary to season the beef.</li>
+    <li>Salt & Pepper – To taste, for seasoning the beef and other components.</li>
+</ul>
+<h4>Steps to follow!</h4>
+<p>To make Beef Wellington, start by searing a seasoned beef tenderloin in a hot pan until browned on all sides. Let it cool, then refrigerate. For the mushroom duxelles, finely chop mushrooms and sauté with garlic, shallots, and herbs until the mixture is dry. Cool completely. Lay prosciutto slices on plastic wrap, spread pâté (if desired), and evenly distribute the mushroom mixture on top. Roll the beef in the prosciutto, wrap tightly, and chill again. Roll out puff pastry and brush the beef with mustard (optional), then wrap it in the pastry, sealing edges. Brush with egg wash and refrigerate again. Preheat the oven to 400°F and bake the Wellington for 30-40 minutes, until the pastry is golden and the beef reaches your desired doneness. Let it rest before slicing. Serve with a rich red wine sauce made by reducing wine and beef stock with butter for a velvety finish.</p>
+<br>
+<p>For a step to step guide click the link below.</p>
+<a href="https://youtu.be/Cyskqnp1j64?si=Wb5RzlHE_ypXXERd" alt="youtube video">Video Guide!</a>
+
+    <h1>Recipe Feedback Form</h1>
+    <p>Please share your thoughts and feedback on the recipe!</p>
+
+    <form action="/submit-feedback" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="rating">Recipe Rating (1 to 5):</label>
+        <select id="rating" name="rating" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select><br><br>
+
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="recommend">Would you recommend this recipe?</label><br>
+        <input type="radio" id="yes" name="recommend" value="yes" required>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="recommend" value="no" required>
+        <label for="no">No</label><br><br>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+</body>
+ </html>
